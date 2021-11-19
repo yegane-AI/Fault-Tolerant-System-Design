@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP1 win64' PARAM_COUNT=0
+.TITLE '***** manchester 90 nm *****'
+ avgpower         temper           alter#          
+  1.748e-004        25.0000        1               
