@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP1 win64' PARAM_COUNT=0
+.TITLE '**********4 bit gray counter *********'
+ avgpower         temper           alter#          
+  2.303e-005        25.0000        1               

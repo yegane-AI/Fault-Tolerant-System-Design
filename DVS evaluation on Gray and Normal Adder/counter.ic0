@@ -1,0 +1,58 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP1 win64"
+* "format" "HSP"
+* "rundate" "21:42:23 07/14/2020 "
+* "netlist" "counter.sp "
+* "runtitle" "*********4 bit counter *********"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   0.            
++ c0 =   5.0000        
++ cc00 =   0.            
++ clkbar =   0.            
++ cp =   0.            
++ q0 =   0.            
++ q1 =   0.            
++ q2 =   0.            
++ q3 =   0.            
++ qbar0 =   0.            
++ qbar1 =   0.            
++ qbar2 =   0.            
++ qbar3 =   0.            
++ tt0 =   0.            
++ tt01 =   0.            
++ tt02 =   0.            
++ tt03 =   0.            
++ tt04 =   0.            
++ tt05 =   0.            
++ tt06 =   0.            
++ tt07 =   0.            
++ tt08 =   0.            
++ tt09 =   0.            
++ tt10 =   0.            
++ vbb =   0.            
++ vc0 =   0.            
++ vddb =   5.0000        
++ xc01 =   0.            
++ xc02 =   0.            
++ xc03 =   0.            
++ xc04 =   0.            
++ xc05 =   0.            
++ xc06 =   0.            
++ xc07 =   0.            
++ xc08 =   0.            
++ xc09 =   0.            
++ xx01 =   0.            
++ xx02 =   0.            
++ xx03 =   0.            
++ xx04 =   0.            
++ xx05 =   0.            
++ xx06 =   0.            
++ xx07 =   0.            
++ xx08 =   0.            
++ xx09 =   0.            
+***   END: Saved Operating Point ***                     

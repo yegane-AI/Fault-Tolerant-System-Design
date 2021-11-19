@@ -1,0 +1,90 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP1 win64"
+* "format" "HSP"
+* "rundate" "04:35:31 07/11/2020 "
+* "netlist" "gray.sp "
+* "runtitle" "**********4 bit gray counter *********"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   0.            
++ c0 =   0.            
++ cc00 =   0.            
++ clkbar =   0.            
++ cp =   0.            
++ j0 =   0.            
++ j1 =   0.            
++ j2 =   0.            
++ k0 =   0.            
++ k1 =   0.            
++ k2 =   0.            
++ q0 =   0.            
++ q1 =   0.            
++ q1bar =   0.            
++ q2 =   0.            
++ q3 =   0.            
++ qbar0 =   0.            
++ qbar1 =   0.            
++ qbar2 =   0.            
++ qbar3 =   0.            
++ vbb =   0.            
++ vc0 =   0.            
++ vddb =   3.3000        
++ xx01 =   0.            
++ xx02 =   0.            
++ xx03 =   0.            
++ xx04 =   0.            
++ xx05 =   0.            
++ xx06 =   0.            
++ xx07 =   0.            
++ xx08 =   0.            
++ xx09 =   0.            
++ xx10 =   0.            
++ xx11 =   0.            
++ xx12 =   0.            
++ xx13 =   0.            
++ xx14 =   0.            
++ xx15 =   0.            
++ xx16 =   0.            
++ xx17 =   0.            
++ xx18 =   0.            
++ xx19 =   0.            
++ xx20 =   0.            
++ xx21 =   0.            
++ xx22 =   0.            
++ xx23 =   0.            
++ xx24 =   0.            
++ xx25 =   0.            
++ xx26 =   0.            
++ xx27 =   0.            
++ xx28 =   0.            
++ xx29 =   0.            
++ xx30 =   0.            
++ xx31 =   0.            
++ xx32 =   0.            
++ xx33 =   0.            
++ xx34 =   0.            
++ xx35 =   0.            
++ xx36 =   0.            
++ xx37 =   0.            
++ xx38 =   0.            
++ xx39 =   0.            
++ xx40 =   0.            
++ xx41 =   0.            
++ xx42 =   0.            
++ xx43 =   0.            
++ xx44 =   0.            
++ xx45 =   0.            
++ xx46 =   0.            
++ xx47 =   0.            
++ xx48 =   0.            
++ xx49 =   0.            
++ xx50 =   0.            
++ xx51 =   0.            
++ xx52 =   0.            
++ xx53 =   0.            
++ xx54 =   0.            
+***   END: Saved Operating Point ***                     
