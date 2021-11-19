@@ -1,0 +1,54 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : D:\ISE-Design\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - D:\ISE-Design\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.7 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Reading the compxlib configuration file - 'compxlib.cfg' ...
+Library Source Paths => 'D:/ISE-Design/14.7/ISE_DS/ISE'
+Current Working Directory => 'D:\Arshad COM\Term2\low-power\Final\cordic-sqrt\sqrt01'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: virtex7
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+D:\ISE-Design\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l verilog -arch kintex7 -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+ERROR:Compxlib - COMPXLIB[sim]: Unable to automatically find executables for simulator 'mti_se' from the following paths:
+    D:\ISE-Design\14.7\ISE_DS\ISE\\lib\nt64
+   D:\ISE-Design\14.7\ISE_DS\ISE\\bin\nt64
+   D:\ISE-Design\14.7\ISE_DS\ISE\bin\nt64
+   D:\ISE-Design\14.7\ISE_DS\ISE\lib\nt64
+   D:\ISE-Design\14.7\ISE_DS\ISE\..\..\..\DocNav
+   D:\ISE-Design\14.7\ISE_DS\PlanAhead\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\bin\nt64
+   D:\ISE-Design\14.7\ISE_DS\EDK\lib\nt64
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnuwin\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnu\arm\nt\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin
+   D:\ISE-Design\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin
+   D:\ISE-Design\14.7\ISE_DS\common\bin\nt64
+   D:\ISE-Design\14.7\ISE_DS\common\lib\nt64
+   C:\Windows\System32
+   C:\Program Files\Microsoft SQL Server\120\Tools\Binn\
+   C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+   C:\Users\p\AppData\Local\Programs\Python\Python37-32
+   C:\Program Files\caffe-master
+   C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+   C:\Program Files\caffe-master\Build\x64\Release
+   D:\Anaconda
+   C:\Program Files\PuTTY\.
+Simulator 'mti_se' is ignored.

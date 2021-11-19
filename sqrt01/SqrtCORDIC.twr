@@ -1,0 +1,128 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ISE-Design\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s
+3 -n 3 -fastpaths -xml SqrtCORDIC.twx SqrtCORDIC.ncd -o SqrtCORDIC.twr
+SqrtCORDIC.pcf -ucf SqrtCORDIC.ucf
+
+Design file:              SqrtCORDIC.ncd
+Physical constraint file: SqrtCORDIC.pcf
+Device,package,speed:     xc7k325t,fbg676,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+InpNum<0>   |   -2.937(F)|      FAST  |    6.520(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<1>   |   -2.872(F)|      FAST  |    6.456(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<2>   |   -2.867(F)|      FAST  |    6.450(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<3>   |   -2.887(F)|      FAST  |    6.470(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<4>   |   -2.875(F)|      FAST  |    6.457(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<5>   |   -2.871(F)|      FAST  |    6.454(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<6>   |   -2.864(F)|      FAST  |    6.446(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<7>   |   -2.893(F)|      FAST  |    6.476(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<8>   |   -2.890(F)|      FAST  |    6.473(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<9>   |   -2.857(F)|      FAST  |    6.440(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<10>  |   -2.855(F)|      FAST  |    6.437(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<11>  |   -2.871(F)|      FAST  |    6.452(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<12>  |   -2.891(F)|      FAST  |    6.472(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<13>  |   -2.893(F)|      FAST  |    6.475(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<14>  |   -2.888(F)|      FAST  |    6.470(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<15>  |   -2.900(F)|      FAST  |    6.481(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<16>  |   -2.900(F)|      FAST  |    6.483(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<17>  |   -2.876(F)|      FAST  |    6.457(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<18>  |   -2.894(F)|      FAST  |    6.477(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<19>  |   -2.900(F)|      FAST  |    6.480(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<20>  |   -2.890(F)|      FAST  |    6.470(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<21>  |   -2.873(F)|      FAST  |    6.454(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<22>  |   -2.870(F)|      FAST  |    6.451(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<23>  |   -2.894(F)|      FAST  |    6.473(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<24>  |   -2.893(F)|      FAST  |    6.473(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<25>  |   -2.881(F)|      FAST  |    6.460(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<26>  |   -2.882(F)|      FAST  |    6.461(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<27>  |   -2.893(F)|      FAST  |    6.473(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<28>  |   -2.890(F)|      FAST  |    6.470(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<29>  |   -2.823(F)|      FAST  |    6.271(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<30>  |   -2.849(F)|      FAST  |    6.298(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+InpNum<31>  |   -2.843(F)|      FAST  |    6.292(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+Start       |   -0.965(R)|      FAST  |    3.291(R)|      SLOW  |clk_IBUF_BUFG     |   0.000|
+            |   -0.800(R)|      FAST  |    3.791(R)|      SLOW  |gatedClk_inv_BUFG |   0.000|
+            |    1.590(F)|      FAST  |    4.963(F)|      SLOW  |gatedClk_BUFG     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Result<0>   |        11.075(R)|      SLOW  |         5.395(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<1>   |        10.977(R)|      SLOW  |         5.338(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<2>   |        10.959(R)|      SLOW  |         5.306(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<3>   |        10.970(R)|      SLOW  |         5.357(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<4>   |        10.952(R)|      SLOW  |         5.327(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<5>   |        10.843(R)|      SLOW  |         5.271(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<6>   |        10.904(R)|      SLOW  |         5.286(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<7>   |        10.671(R)|      SLOW  |         5.161(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<8>   |        10.819(R)|      SLOW  |         5.246(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<9>   |        10.937(R)|      SLOW  |         5.319(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<10>  |        10.829(R)|      SLOW  |         5.266(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<11>  |        10.818(R)|      SLOW  |         5.260(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<12>  |        10.931(R)|      SLOW  |         5.316(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<13>  |        10.843(R)|      SLOW  |         5.270(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<14>  |        10.801(R)|      SLOW  |         5.243(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<15>  |        10.735(R)|      SLOW  |         5.182(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<16>  |        10.930(R)|      SLOW  |         5.305(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<17>  |        10.940(R)|      SLOW  |         5.308(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<18>  |        10.837(R)|      SLOW  |         5.238(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<19>  |        10.715(R)|      SLOW  |         5.186(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<20>  |        11.011(R)|      SLOW  |         5.363(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<21>  |        11.089(R)|      SLOW  |         5.405(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<22>  |        11.034(R)|      SLOW  |         5.338(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Result<23>  |        10.818(R)|      SLOW  |         5.224(R)|      FAST  |gatedClk_inv_BUFG |   0.000|
+Stop        |         8.530(R)|      SLOW  |         4.019(R)|      FAST  |clk_IBUF_BUFG     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.590|    8.595|         |    0.607|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Jul 13 04:13:33 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 874 MB
+
+
+

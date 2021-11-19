@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.xst" -ofn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k325t-fbg676-3 "SqrtCORDIC.ngc" SqrtCORDIC.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SqrtCORDIC_map.ncd SqrtCORDIC.ngd SqrtCORDIC.pcf 
+par -w -intstyle ise -ol high -mt off SqrtCORDIC_map.ncd SqrtCORDIC.ncd SqrtCORDIC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SqrtCORDIC.twx SqrtCORDIC.ncd -o SqrtCORDIC.twr SqrtCORDIC.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SqrtCORDIC.ucf -p xc7k325t-fbg676-3 "SqrtCORDIC.ngc" SqrtCORDIC.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SqrtCORDIC_map.ncd SqrtCORDIC.ngd SqrtCORDIC.pcf 
+par -w -intstyle ise -ol high -mt off SqrtCORDIC_map.ncd SqrtCORDIC.ncd SqrtCORDIC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SqrtCORDIC.twx SqrtCORDIC.ncd -o SqrtCORDIC.twr SqrtCORDIC.pcf -ucf SqrtCORDIC.ucf 
+xst -intstyle ise -ifn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.xst" -ofn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SqrtCORDIC.ucf -p xc7k325t-fbg676-3 "SqrtCORDIC.ngc" SqrtCORDIC.ngd  
+map -intstyle ise -p xc7k325t-fbg676-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o SqrtCORDIC_map.ncd SqrtCORDIC.ngd SqrtCORDIC.pcf 
+par -w -intstyle ise -ol high -mt off SqrtCORDIC_map.ncd SqrtCORDIC.ncd SqrtCORDIC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SqrtCORDIC.twx SqrtCORDIC.ncd -o SqrtCORDIC.twr SqrtCORDIC.pcf -ucf SqrtCORDIC.ucf 
+xst -intstyle ise -ifn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.xst" -ofn "D:/Arshad COM/Term2/low-power/Final/cordic-sqrt/sqrt01/SqrtCORDIC.syr" 
